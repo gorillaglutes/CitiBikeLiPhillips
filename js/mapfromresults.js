@@ -56,7 +56,7 @@ d3.xml('res/nycmap.svg').then((nycmap) => {
 
     Promise.all(
         [
-            d3.json('/results/input_output.json'),
+            d3.json('./input_output.json'),
             //NYC 
             
             
